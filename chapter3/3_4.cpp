@@ -5,7 +5,7 @@ const int seconds_per_minute=60;
 int main()
 {
     using namespace std;
-    cout<<"Enterthenumberofseconds:";
+    cout<<"Enter the number of seconds:";
     long seconds;
     cin>>seconds;
     int Day,Hour,Minute,Second;

@@ -1,13 +1,13 @@
 #include<iostream>
-using namespace std; // 使用 std 命名空间
-const int feet2inch = 12;//const常量-- 1feet=12inches --1英尺=12英寸
-int main()
+const int inch_per_feet=12;//const常量-- 1feet=12inches --1英尺=12英寸
+intmain()
 {
-    cout<<"Please input your stature in inch:____\b\b\b\b"; // \b 为退格字符
-    int input_inch;
-    cin>>input_inch;
-    int output_feet= input_inch/feet2inch; // 整数除法，取商
-    int output_inch = input_inch%feet2inch; // % 为取余运算
-    cout<<"Your stature is "<<output_feet<<" feet,and "<<output_inch<<" inch."<<endl;
-    return 0;
+    usingnamespace std; // 申明使用 std 命名空间
+    cout<<"pleaseenteryourheightininches:___\b\b\b";// \b表示为退格字符
+    int ht_inch;
+    cin>>ht_inch;
+    int ht_feet=ht_inch/inch_per_feet;//取商
+    int rm_inch = ht_inch%inch_per_feet;//取余
+    cout<<"your height is"<<ht_feet<<"feet,and"<<rm_inch<<"inches\n";
+    return0;
 }
