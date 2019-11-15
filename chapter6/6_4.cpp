@@ -1,10 +1,10 @@
 #include<iostream>
 const int strsize=20;
 struct bop{
-	char fullname[strsize];
-	char title[strsize];
-	char bopname[strsize];
-	int preference;
+	char fullname[strsize]; // real name
+	char title[strsize]; //	job title
+	char bopname[strsize]; // secret BOP name
+	int preference; // 0 = fullname,1 = title,2= bopname
 };
 int main()
 {
