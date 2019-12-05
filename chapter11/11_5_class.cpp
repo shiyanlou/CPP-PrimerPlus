@@ -1,4 +1,4 @@
-//stonewt.cpp
+//11_5_class.cpp
 #include"11_5_class.h"
 void Stonewt::set_stn()
 {

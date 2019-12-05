@@ -1,4 +1,4 @@
-//stonewt.h
+//11_5_class.h
 #ifndef __11_5_CLASS__
 #define __11_5_CLASS__
 #include<iostream>
