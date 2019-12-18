@@ -6,8 +6,7 @@
 using namespace std;
 class String 
 {
-	char *
-	mp_text;
+	char *mp_text;
 	unsigned m_text_length;
 	void assignMember(const char *text)
 	{
