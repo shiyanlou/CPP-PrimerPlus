@@ -1,6 +1,6 @@
 // queue.h -- interface for a queue
-#ifndef QUEUE_H_
-#define QUEUE_H_
+#ifndef __QUEUE_H__
+#define __QUEUE_H__
 // This queue will contain Customer items
 class Customer
 {
