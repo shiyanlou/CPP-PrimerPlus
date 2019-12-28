@@ -1,4 +1,4 @@
-// filename classic.h
+// filename classic-new.h
 #ifndef __CLASSIC_H__
 #define __CLASSIC_H__
 #include"cd-new.h"

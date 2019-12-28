@@ -1,4 +1,4 @@
-// filename cd.h
+// filename cd-new.h
 #ifndef __CD_H__
 #define __CD_H__
 #include<iostream>

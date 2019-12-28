@@ -1,3 +1,4 @@
+// 14-1.cpp
 #include<iostream>
 #include "winec.h"
 int  main(void )
@@ -18,6 +19,5 @@ int  main(void )
 	more.Show();
 	cout<< "Total bottles for " <<more.Label()	<< ":  " <<more.sum() <<endl;
 	cout<< "Bye\n";
-	system("pause");
 	return  0;
 }
